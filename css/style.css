@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    background-image: url(https://image.freepik.com/free-vector/golden-bokeh-lights-background_1048-9227.jpg);
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background-color: #0009;
+    line-height: 80px;
+}
+
+nav ul {
+    margin-right: 30px;
+}
+
+nav ul li {
+    float: right;
+    list-style-type: none;
+    height: 80px;
+    display: inline-block;
+    transition: 0.8s all;
+}
+
+nav ul li:hover:not(.active) {
+    background-color: rgb(224, 203, 203);
+}
+
+nav ul button {
+    margin-top: 20px;
+    padding: 12px;
+    height: 37px;
+    width: 40px;
+    solid-color: rgba(0, 0, 0, 0.459);
+}
+
+#ohno {
+    text-align: center;
+    position: relative;
+}

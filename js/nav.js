@@ -1,0 +1,1 @@
+document.getElementById(architnav).style.position = "sticky";
